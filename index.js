@@ -1,63 +1,38 @@
 const btn = document.querySelector('#btn')
-let enemyHealth = 100
-let num = 10
-let damage = 10
-num - 3
 
 // Functions
 
-// 1: Write a function that on button click, decreases the enemyHealth variable by 10
-btn.addEventListener('click',
-// write function here:
+// event listeners
 
-)
-
-// Adding your own damage
-
-// same function but put damage into a variable
-
-// btn.addEventListener("click", () => {
-//   // don't pass a param for this one, don't know why it's not working
-//   enemyHealth -= damage;
-//   console.log(enemyHealth);
-//   gsap.to(".healthbar", {
-//     width: enemyHealth + "%",
-//   });
-// });
+// Task 1: Write a function that on button click, decreases the enemyHealth variable by 10 each click. Do NOT pass a parameter
+// Make sure to also console.log enemyHealth
 
 // IF STATEMENTS 
 // Take in a boolean, code block runs depending on true or false 'if this, then that'
-// declare a variable
-let numbah = 1
 
-if (numbah === 0) {
-    console.log('goodbye world')
-}
 
-if (numbah === 0) {
-    console.log('goodbye')
-} else {
-    console.log('hello world')
-}
-
-if (numbah > 0) {
-    console.log()
-}
-
-btn.addEventListener("click", () => {
-  // don't pass a param for this one, don't know why it's not working
-  if (enemyHealth > 0) {
-      enemyHealth -= damage;
-  } else {
-    console.log('ded')
-  }
-    console.log(enemyHealth);
-});
-
-//btn.addEventListener('click', () => {
-// enemyHealth -= 10}
-//);
-
-// For Loops
+// Task 2: go back into teams; create an if statement in the event listener that damages the enemy
+// as long as enemyHealth is above 0 and to console log 'Enemy Beat' when enemyHealth is 0; 10 min
+// enter the code into the previous challenge above
 
 // Objects
+
+// Task 3: In your groups, make an object called player that includes the keys: damage, health, and name
+//10 min
+// Make the object above your function that you have previously made
+
+// EVENTS
+
+// Task 4: Make an if statement in the event listener on line 120 that fires off the exact same code
+// in the button's function when a certain key is pressed; 10 min:
+// if () {
+// button code //
+//  }
+
+// Event Listeners
+
+// Task 4: Make an if statement in the event listener on line 120 that fires off the exact same code
+// in the button's function when a certain key is pressed; 10 min:
+// if () {
+// button code //
+//  }
