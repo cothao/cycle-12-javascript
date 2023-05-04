@@ -29,8 +29,4 @@ const btn = document.querySelector('#btn')
 // button code //
 //  }
 
-// Task 4: Make an if statement in the event listener on line 120 that fires off the exact same code
-// in the button's function when a certain key is pressed; 10 min:
-// if () {
-// button code //
-//  }
+// 
