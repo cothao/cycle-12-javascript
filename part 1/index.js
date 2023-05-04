@@ -28,5 +28,3 @@ const btn = document.querySelector('#btn')
 // if () {
 // button code //
 //  }
-
-// 
