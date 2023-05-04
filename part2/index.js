@@ -16,3 +16,10 @@ let enemy = {
 // Task 1: Add in 2 objects to the player Object, one with the name position that has
 // 2 keys with values x and y, and the second object names size with 2 keys called width and height
 // Their values should be positive integers
+
+// looping functions
+
+// Task 2: make a function that decrements when
+// j is more than 10 and calls itself again
+let j = 20
+
